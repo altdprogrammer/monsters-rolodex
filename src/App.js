@@ -27,6 +27,8 @@ const App = () => {
     setSearchField(searchFieldString);
   };
 
+  console.log("Rendered");
+
   return (
     <div className="App">
       <h1>Monsters Rolodex</h1>
